@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developed by: WooSeok Jung and Morgan Ling"
+        android:text="Developed by: Woo Seok Jung and Morgan Ling"
         android:id="@+id/author"
         android:textSize="15dp"
         android:textColor="#BDBDBD"
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/Java"
+        android:src="@drawable/javalogo"
         android:adjustViewBounds="true"
         android:maxHeight="300dp"
         android:maxWidth="200dp"

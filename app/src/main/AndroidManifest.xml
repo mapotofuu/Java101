@@ -20,6 +20,10 @@
             android:name=".MainMenu"
             android:label="@string/title_activity_main_menu" >
         </activity>
+        <activity
+            android:name=".Setup"
+            android:label="@string/title_activity_setup" >
+        </activity>
     </application>
 
 </manifest>
