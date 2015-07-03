@@ -54,11 +54,10 @@
         android:src="@drawable/Java"
         android:adjustViewBounds="true"
         android:maxHeight="300dp"
-        android:maxWidth="250dp"
+        android:maxWidth="200dp"
         android:scaleType="fitCenter"
         android:layout_below="@+id/title2"
-        android:layout_alignLeft="@+id/title"
-        android:layout_alignStart="@+id/title" />
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
