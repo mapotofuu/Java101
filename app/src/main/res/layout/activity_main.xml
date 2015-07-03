@@ -33,9 +33,8 @@
         android:layout_height="wrap_content"
         android:text="Start"
         android:textSize="20dp"
-        android:layout_below="@+id/title2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="74dp" />
+        android:layout_above="@+id/author"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,6 +46,19 @@
         android:fontFamily="sans-serif-thin"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/Java"
+        android:adjustViewBounds="true"
+        android:maxHeight="300dp"
+        android:maxWidth="250dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/title2"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title" />
 
 
 </RelativeLayout>
