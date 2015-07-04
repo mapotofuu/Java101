@@ -27,14 +27,6 @@
         android:fontFamily="sans-serif-thin"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:id="@+id/next_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start"
-        android:textSize="20dp"
-        android:layout_above="@+id/author"
-        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,17 +39,25 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="20dp"
+        android:layout_above="@id/author"
+        android:layout_centerHorizontal="true" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/javalogo"
-        android:adjustViewBounds="true"
-        android:maxHeight="300dp"
-        android:maxWidth="200dp"
-        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/next_button"
         android:layout_below="@+id/title2"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_alignRight="@+id/author"
+        android:layout_alignEnd="@+id/author"
+        android:layout_alignLeft="@+id/author"
+        android:layout_alignStart="@+id/author" />
 
 </RelativeLayout>
