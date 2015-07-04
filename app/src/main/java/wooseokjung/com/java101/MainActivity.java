@@ -1,9 +1,11 @@
 package wooseokjung.com.java101;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +14,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    /*Called when the user clicks the start button*/
+    public void startMainMenu(View view){
+        //Do something in response to button click
+        Intent intent = new Intent(this,MainMenu.class);
+        startActivity(intent);
     }
 
     @Override
