@@ -19,4 +19,22 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main_menu">MainMenu</string>
     <string name="title_activity_setup">Setup</string>
+
+    <!--Strings for Setup.class -->
+    <string name="step1">Step 1: Download the JDK</string>
+    <string name="step2">Step 2: Install the JDK</string>
+    <string name="step3">Step 3: Set Environment Variables</string>
+    <string name="step1desc">Visit Oracle\'s website and download the JDK that matches your
+        OS and version if Windows</string>
+    <string name="step2desc">Run the downloaded executable file to install the JDK</string>
+    <string
+        name="step3desc">Navigate to Environment Varaibles… \n\nWindows 7: Computer > System
+        Properties > Advanced System
+        Settings > Environment Variables \n\nWindows 8: Settings > PC Info > Advanced
+        Settings > Environment Variables \n\n Under System variables, find the variables
+        JAVA_HOME and Path. \n(If it doesn\'t exist, create one) \n\nAdd a semicolon(;) and the
+        jdk\'s
+        bin
+        path to both of the variable\'s values. \n(By default it should be
+        \"C:\\Program Files\\Java\\jdk1.7.0_45\\bin\")></string>
 </resources>
