@@ -31,7 +31,7 @@
             android:layout_marginBottom="5dp"
             android:layout_marginTop="0dp"/>
 
-        <TextView
+        <wooseokjung.com.java101.TextViewWhitePine
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,12 +39,13 @@
             android:layout_centerHorizontal="true"
             android:text="Setting up Java"
             android:textColor="#ff050505"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            />
     </LinearLayout>
 
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout"
         >
@@ -56,7 +57,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/linearLayout"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <TextView
                 android:id="@+id/step1"
@@ -64,12 +66,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/title"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="0dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/step1"
                 android:textColor="#ff000000"
                 android:textSize="25dp"
-                android:textStyle="italic"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:typeface="sans"
                 />
 
             <TextView
@@ -77,10 +80,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/step1desc"
-                android:textColor="#000000"
-                android:textSize="15dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"/>
+                android:textColor="#ff000000"
+                android:textSize="19dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/step2"
@@ -89,11 +93,13 @@
                 android:layout_alignLeft="@+id/step1"
                 android:layout_alignStart="@+id/step1"
                 android:layout_centerVertical="true"
-                android:layout_margin="0dp"
                 android:text="@string/step2"
                 android:textColor="#000000"
                 android:textSize="25dp"
-                android:textStyle="italic"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:typeface="sans"
                 />
 
             <TextView
@@ -101,24 +107,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/step2desc"
-                android:textColor="#000000"
-                android:textSize="15dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"/>
+                android:textColor="#ff000000"
+                android:textSize="19dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/step3"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/step2"
                 android:layout_alignStart="@+id/step2"
                 android:layout_below="@+id/step2"
-                android:layout_margin="0dp"
-                android:layout_marginTop="101dp"
+                android:layout_marginTop="5dp"
                 android:text="@string/step3"
                 android:textColor="#000000"
                 android:textSize="25dp"
-                android:textStyle="italic"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:typeface="sans"
                 />
 
             <TextView
@@ -126,10 +134,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/step3desc"
-                android:textColor="#000000"
-                android:textSize="15dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"/>
+                android:textColor="#ff000000"
+                android:textSize="19dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:typeface="sans"/>
         </LinearLayout>
 
     </ScrollView>
