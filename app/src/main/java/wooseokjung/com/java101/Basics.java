@@ -1,33 +1,24 @@
 package wooseokjung.com.java101;
 
-import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 
-public class MainActivity extends AppCompatActivity {
-    Intent intent;
+public class Basics extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-    /*Called when the user clicks the start button*/
-    public void startMainMenu(View view){
-        //Do something in response to button click
-        Intent intent = new Intent(this,MainMenu.class);
-        startActivity(intent);
+        setContentView(R.layout.activity_basics);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_basics, menu);
         return true;
     }
 

@@ -10,6 +10,8 @@ import android.view.View;
 
 public class MainMenu extends AppCompatActivity {
 
+    private View view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,11 @@ public class MainMenu extends AppCompatActivity {
 
     public void startSetup(View view){
         Intent intent = new Intent(this,Setup.class);
+        startActivity(intent);
+    }
+
+    public void startBasics (View view) {
+        Intent intent = new Intent(this,Basics.class);
         startActivity(intent);
     }
 

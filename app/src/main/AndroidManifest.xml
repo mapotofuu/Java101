@@ -24,6 +24,10 @@
             android:name=".Setup"
             android:label="@string/title_activity_setup" >
         </activity>
+        <activity
+            android:name=".Basics"
+            android:label="@string/title_activity_basics" >
+        </activity>
     </application>
 
 </manifest>
